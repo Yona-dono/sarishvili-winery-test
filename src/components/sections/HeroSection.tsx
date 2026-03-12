@@ -1,4 +1,5 @@
 import { useTranslations } from 'next-intl';
+import Image from 'next/image';
 
 export default function HeroSection() {
   const t = useTranslations('hero');
@@ -9,33 +10,20 @@ export default function HeroSection() {
       className="relative flex items-center justify-center min-h-screen overflow-hidden"
       aria-label="Hero"
     >
-      {/* Background video (desktop) */}
-      <video
-        autoPlay
-        muted
-        loop
-        playsInline
-        className="absolute inset-0 w-full h-full object-cover hidden md:block"
+      {/* Background image — fills behind everything */}
+      <Image
+        src="/images/hero/Long Pic 1 mb.jpg"
+        alt=""
+        fill
+        priority
+        className="object-cover object-center"
         aria-hidden="true"
-        preload="metadata"
-      >
-        <source src="/videos/vineyard-loop.mp4" type="video/mp4" />
-      </video>
-
-      {/* Background image (mobile + video fallback) */}
-      {/* Using a CSS bg until real image is placed */}
-      <div
-        className="absolute inset-0 w-full h-full bg-cover bg-center md:hidden"
-        style={{ backgroundImage: 'url(/images/hero/hero-mobile.webp)' }}
-        aria-hidden="true"
+        sizes="100vw"
       />
-
-      {/* Fallback color when no video/image */}
-      <div className="absolute inset-0 bg-burgundy-dark" aria-hidden="true" />
 
       {/* Gradient overlay */}
       <div
-        className="absolute inset-0 bg-gradient-to-b from-black/50 via-black/30 to-black/70"
+        className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/40 to-black/75"
         aria-hidden="true"
       />
 
@@ -80,7 +68,7 @@ export default function HeroSection() {
       </div>
 
       {/* Scroll indicator */}
-      <div className="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 text-cream/40" aria-hidden="true">
+      <div className="absolute bottom-8 left-1/2 -translate-x-1/2" aria-hidden="true">
         <div className="w-px h-12 bg-gradient-to-b from-transparent to-cream/40" />
       </div>
     </section>

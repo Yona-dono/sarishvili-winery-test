@@ -16,18 +16,20 @@ export default function WineCard({ wine }: WineCardProps) {
   return (
     <article className="bg-cream rounded-lg overflow-hidden shadow-md hover:shadow-xl transition-shadow duration-300 border border-cream-dark flex flex-col">
       {/* Bottle image */}
-      <div className="relative bg-gradient-to-b from-burgundy/5 to-burgundy/10 flex items-center justify-center h-64 overflow-hidden">
+      <div className="relative h-80 overflow-hidden">
         <Image
           src={imgError ? '/images/wines/bottle-placeholder.svg' : wine.image}
           alt={wine.imageAlt}
-          width={160}
-          height={240}
-          className="object-contain h-56 w-auto relative z-10 drop-shadow-lg"
+          fill
+          className="object-cover object-center"
           loading="lazy"
+          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
           onError={() => setImgError(true)}
         />
+        {/* Subtle gradient at bottom for text legibility */}
+        <div className="absolute inset-x-0 bottom-0 h-20 bg-gradient-to-t from-cream/60 to-transparent" />
         {/* Vintage badge */}
-        <span className="absolute top-4 right-4 bg-burgundy text-cream text-xs font-semibold px-3 py-1 rounded-full tracking-wider z-20">
+        <span className="absolute top-4 right-4 bg-burgundy text-cream text-xs font-semibold px-3 py-1 rounded-full tracking-wider">
           {wine.vintage}
         </span>
       </div>

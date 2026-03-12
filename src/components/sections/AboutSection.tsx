@@ -38,22 +38,13 @@ export default function AboutSection() {
           {/* Image column with parallax */}
           <AnimatedSection delay={100}>
             <div className="relative rounded-xl overflow-hidden shadow-2xl aspect-[4/5]">
-              <div
-                className="absolute inset-0 bg-cover bg-center parallax-bg"
-                style={{ backgroundImage: 'url(/images/about/vineyard.webp)', backgroundSize: 'cover' }}
+              <Image
+                src="/images/about/IMG_0084.JPG"
+                alt="Sarishvili Ckhaveri Rosé bottle surrounded by fresh Georgian fruits"
+                fill
+                className="object-cover object-center"
+                sizes="(max-width: 1024px) 100vw, 50vw"
               />
-              {/* Fallback colour */}
-              <div className="absolute inset-0 bg-burgundy/20" />
-              {/* Placeholder when no image */}
-              <div className="absolute inset-0 flex items-center justify-center">
-                <Image
-                  src="/images/about/vineyard.webp"
-                  alt="Sarishvili vineyard in Guria, Georgia"
-                  fill
-                  className="object-cover"
-                  sizes="(max-width: 1024px) 100vw, 50vw"
-                />
-              </div>
               {/* Gold frame accent */}
               <div className="absolute inset-4 border border-gold/20 rounded-lg pointer-events-none" />
             </div>

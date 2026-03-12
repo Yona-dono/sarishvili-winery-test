@@ -21,8 +21,8 @@ export const wines: Wine[] = [
     pairingKey: 'wines.ckhaveri2022.pairing',
     abv: '12.5%',
     volume: '750ml',
-    image: '/images/wines/ckhaveri-2022.webp',
-    imageAlt: 'Sarishvili Ckhaveri Rosé 2022 bottle',
+    image: '/images/wines/IMG_0085.JPG',
+    imageAlt: 'Sarishvili Ckhaveri Rosé 2022 bottle with dried flowers',
   },
   {
     id: 'ckhaveri2023',
@@ -32,8 +32,8 @@ export const wines: Wine[] = [
     pairingKey: 'wines.ckhaveri2023.pairing',
     abv: '12.0%',
     volume: '750ml',
-    image: '/images/wines/ckhaveri-2023.webp',
-    imageAlt: 'Sarishvili Ckhaveri Rosé 2023 bottle',
+    image: '/images/wines/IMG_0061.JPG',
+    imageAlt: 'Sarishvili Ckhaveri Rosé 2023 bottle and glass',
   },
   {
     id: 'ckhaveri2024',
@@ -43,7 +43,7 @@ export const wines: Wine[] = [
     pairingKey: 'wines.ckhaveri2024.pairing',
     abv: '11.5%',
     volume: '750ml',
-    image: '/images/wines/ckhaveri-2024.webp',
-    imageAlt: 'Sarishvili Ckhaveri Rosé 2024 bottle',
+    image: '/images/wines/IMG_0096.JPG',
+    imageAlt: 'Sarishvili Ckhaveri Rosé 2024 bottle with bokeh flowers',
   },
 ];
