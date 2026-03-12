@@ -1,0 +1,146 @@
+{
+  "nav": {
+    "about": "About",
+    "wines": "Our Wines",
+    "where": "Where to Buy",
+    "contact": "Contact",
+    "logoAlt": "Sarishvili Winery"
+  },
+  "hero": {
+    "tagline": "From the Heart of Guria",
+    "subtitle": "Handcrafted Ckhaveri Rosé — Lanchkhuti, Georgia",
+    "cta": "Discover Our Wines"
+  },
+  "about": {
+    "heading": "Our Story",
+    "history": {
+      "label": "The Winery",
+      "title": "A Family Legacy in Guria",
+      "body": "Nestled in the verdant hills of Lanchkhuti, the Sarishvili family has cultivated vines for generations. Founded on a deep respect for Georgian winemaking traditions, our estate combines ancestral knowledge with thoughtful modern practices to produce wines that truly express the soul of Guria."
+    },
+    "region": {
+      "label": "The Region",
+      "title": "Guria — Georgia's Hidden Gem",
+      "body": "The Guria region, tucked between the Lesser Caucasus and the Black Sea coast, offers a unique terroir shaped by humid subtropical winds and mineral-rich soils. This microclimate is perfectly suited to the Ckhaveri grape, producing wines of exceptional freshness and aromatic complexity."
+    },
+    "grape": {
+      "label": "The Grape",
+      "title": "Ckhaveri — Georgia's Rosé Treasure",
+      "body": "Ckhaveri is an ancient indigenous Georgian grape variety found almost exclusively in Guria and Adjara. It naturally produces elegant rosé wines with a pale copper hue, vibrant acidity, and delicate notes of red berries, pomegranate, and wildflowers. It is a grape that cannot be found anywhere else in the world."
+    }
+  },
+  "products": {
+    "heading": "Our Wines",
+    "subheading": "Ckhaveri Rosé — Vintage Collection",
+    "filter": {
+      "all": "All Vintages",
+      "2022": "2022",
+      "2023": "2023",
+      "2024": "2024"
+    },
+    "card": {
+      "tasting": "Tasting Notes",
+      "pairing": "Food Pairing",
+      "abv": "ABV",
+      "volume": "Volume",
+      "vintage": "Vintage"
+    }
+  },
+  "wines": {
+    "ckhaveri2022": {
+      "name": "Ckhaveri Rosé 2022",
+      "tasting": "A structured rosé with a luminous copper-pink hue. The nose opens with pomegranate, ripe strawberry, and a hint of rose petal. On the palate, vibrant acidity balances notes of red currant and citrus zest, leading to a long, mineral finish.",
+      "pairing": "Grilled seafood, Georgian mchadi cornbread, aged cheese, summer salads"
+    },
+    "ckhaveri2023": {
+      "name": "Ckhaveri Rosé 2023",
+      "tasting": "Pale salmon in colour with an expressive bouquet of wild strawberry, raspberry, and dried herbs. The palate is refreshingly light with a crisp, clean finish — perfect for warm-weather enjoyment.",
+      "pairing": "Fresh herb salads, lobiani bean bread, white fish, charcuterie"
+    },
+    "ckhaveri2024": {
+      "name": "Ckhaveri Rosé 2024",
+      "tasting": "Our newest vintage shows the elegance of a cooler harvest year. Delicate pink hue, aromas of peach blossom and red cherry, with a silky texture, lively acidity, and an exceptionally clean, lingering finish.",
+      "pairing": "Sushi, light pasta, Georgian pkhali, soft ripened cheeses"
+    }
+  },
+  "storeLocator": {
+    "heading": "Where to Find Us",
+    "subheading": "Visit the winery or find our wines at select locations across Georgia",
+    "mapTitle": "Sarishvili Winery locations map",
+    "winery": "Winery & Cellar Door",
+    "retailers": "Retail Partners"
+  },
+  "locations": {
+    "winery": {
+      "name": "Sarishvili Winery",
+      "address": "Lanchkhuti, Guria, Georgia",
+      "phone": "+995 599 000 000",
+      "hours": "Mon–Sat: 10:00–18:00 | Sun: By appointment"
+    },
+    "tbilisi": {
+      "name": "Wine House Tbilisi",
+      "address": "32 Aghmashenebeli Ave, Tbilisi",
+      "phone": "+995 322 000 001",
+      "hours": "Daily: 11:00–21:00"
+    },
+    "batumi": {
+      "name": "Black Sea Wines, Batumi",
+      "address": "14 Ninoshvili St, Batumi",
+      "phone": "+995 422 000 002",
+      "hours": "Daily: 10:00–22:00"
+    },
+    "kutaisi": {
+      "name": "Kolkha Wine Shop, Kutaisi",
+      "address": "5 Tsminda Nino St, Kutaisi",
+      "phone": "+995 431 000 003",
+      "hours": "Mon–Sat: 10:00–20:00"
+    }
+  },
+  "contact": {
+    "heading": "Get in Touch",
+    "subheading": "For orders, visits, or wholesale inquiries — we'd love to hear from you.",
+    "form": {
+      "name": "Full Name",
+      "email": "Email Address",
+      "phone": "Phone (optional)",
+      "inquiry": "Inquiry Type",
+      "inquiryOptions": {
+        "general": "General Inquiry",
+        "order": "Place an Order",
+        "visit": "Plan a Visit",
+        "wholesale": "Wholesale / Export",
+        "press": "Press & Media"
+      },
+      "message": "Your Message",
+      "submit": "Send Message",
+      "sending": "Sending...",
+      "success": "Thank you! We'll be in touch within 1–2 business days.",
+      "error": "Something went wrong. Please try again or email us directly.",
+      "required": "This field is required.",
+      "emailInvalid": "Please enter a valid email address."
+    }
+  },
+  "footer": {
+    "tagline": "Handcrafted Rosé from Lanchkhuti, Guria",
+    "address": "Lanchkhuti, Guria Region, Georgia",
+    "email": "info@sarishviliwinery.ge",
+    "phone": "+995 599 000 000",
+    "social": {
+      "facebook": "Facebook",
+      "instagram": "Instagram"
+    },
+    "nav": {
+      "about": "About",
+      "wines": "Wines",
+      "where": "Where to Buy",
+      "contact": "Contact"
+    },
+    "copyright": "© {year} Sarishvili Winery. All rights reserved."
+  },
+  "meta": {
+    "title": "Sarishvili Winery — Ckhaveri Rosé from Guria, Georgia",
+    "description": "Sarishvili Winery produces handcrafted Ckhaveri rosé wines in Lanchkhuti, Guria. Discover our 2022, 2023 and 2024 vintages — authentic Georgian wines with soul.",
+    "ogTitle": "Sarishvili Winery — Ckhaveri Rosé",
+    "ogDescription": "Handcrafted Georgian rosé from the heart of Guria. Shop the 2022, 2023 & 2024 vintages."
+  }
+}

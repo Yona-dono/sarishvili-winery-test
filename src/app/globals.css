@@ -1,0 +1,54 @@
+@import "tailwindcss";
+
+@theme {
+  /* Brand colors */
+  --color-burgundy: #6B2737;
+  --color-burgundy-dark: #4A1A25;
+  --color-burgundy-light: #8B3A4A;
+  --color-gold: #B8860B;
+  --color-gold-light: #D4AF37;
+  --color-cream: #FDF6E3;
+  --color-cream-dark: #F5ECCE;
+  --color-charcoal: #2C2C2C;
+  --color-warm-gray: #6B6560;
+
+  /* Fonts */
+  --font-heading: var(--font-cormorant);
+  --font-body: var(--font-noto-georgian);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-cream);
+  color: var(--color-charcoal);
+  font-family: var(--font-body), 'Georgia', serif;
+}
+
+/* Smooth focus rings for accessibility */
+:focus-visible {
+  outline: 2px solid var(--color-gold);
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+
+/* Parallax utility (disabled on mobile) */
+@media (min-width: 768px) {
+  .parallax-bg {
+    background-attachment: fixed;
+  }
+}
+
+/* Reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

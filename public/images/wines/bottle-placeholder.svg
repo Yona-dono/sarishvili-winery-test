@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 240" fill="none">
+  <!-- Bottle shape -->
+  <path d="M30 20 L30 60 Q20 70 18 90 L18 200 Q18 220 40 220 Q62 220 62 200 L62 90 Q60 70 50 60 L50 20 Z"
+        fill="#722F37" stroke="#4A1A25" stroke-width="1.5"/>
+  <!-- Neck top -->
+  <rect x="32" y="8" width="16" height="14" rx="4" fill="#722F37" stroke="#4A1A25" stroke-width="1.5"/>
+  <!-- Cork -->
+  <rect x="34" y="4" width="12" height="8" rx="2" fill="#D4AF37"/>
+  <!-- Label -->
+  <rect x="22" y="120" width="36" height="60" rx="3" fill="#FDF6E3" opacity="0.9"/>
+  <!-- Label lines -->
+  <line x1="26" y1="135" x2="54" y2="135" stroke="#722F37" stroke-width="1.5"/>
+  <line x1="26" y1="165" x2="54" y2="165" stroke="#722F37" stroke-width="1"/>
+  <!-- S initial -->
+  <text x="40" y="152" text-anchor="middle" font-family="Georgia, serif" font-size="14"
+        font-weight="bold" fill="#722F37">S</text>
+  <!-- Rosé colour tint -->
+  <ellipse cx="40" cy="155" rx="14" ry="22" fill="#E8A0B0" opacity="0.15"/>
+</svg>
