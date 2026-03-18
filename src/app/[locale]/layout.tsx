@@ -94,16 +94,7 @@ export default async function LocaleLayout({
         )}
 
         <NextIntlClientProvider messages={messages}>
-          {/* Skip to main content for keyboard / screen-reader users */}
-          <a
-            href="#main-content"
-            className="sr-only focus:not-sr-only focus:fixed focus:top-4 focus:left-4 focus:z-[100] focus:bg-gold focus:text-burgundy-dark focus:px-4 focus:py-2 focus:rounded focus:font-semibold"
-          >
-            Skip to main content
-          </a>
-          <Navbar />
-          <main id="main-content">{children}</main>
-          <Footer />
+          <main>{children}</main>
         </NextIntlClientProvider>
       </body>
     </html>
